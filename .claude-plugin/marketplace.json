@@ -1,0 +1,28 @@
+{
+  "name": "ticket-workflow-skills",
+  "description": "Skills for taking a tracker ticket from assigned to PR open.",
+  "owner": {
+    "name": "Jon Bray",
+    "email": "me@jonbray.dev"
+  },
+  "plugins": [
+    {
+      "name": "ticket-workflow",
+      "displayName": "Ticket Workflow (Linear, Jira)",
+      "description": "Plan and implement tracker tickets with read-only research subagents. Declares research sources per repo instead of hardcoding them. Works in Claude Code and Cursor.",
+      "author": {
+        "name": "Jon Bray"
+      },
+      "category": "productivity",
+      "keywords": [
+        "linear",
+        "jira",
+        "tickets",
+        "planning",
+        "workflow"
+      ],
+      "source": "./plugins/ticket-workflow",
+      "homepage": "https://github.com/heyJonBray/ticket-workflow-skills"
+    }
+  ]
+}
