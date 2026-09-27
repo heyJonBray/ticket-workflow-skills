@@ -1,6 +1,18 @@
 {
   "name": "ticket-workflow",
   "version": "0.1.0",
+  "author": {
+    "name": "Jon Bray",
+    "email": "me@jonbray.dev"
+  },
   "description": "Plan and implement tracker tickets with read-only research subagents. plan-ticket researches the sources a repo declares and writes a milestone-grouped plan; build-ticket executes it; add-ticket-refs governs TODO hygiene. Works with any PREFIX-number tracker reachable over MCP, in Claude Code and Cursor.",
-  "keywords": ["linear", "jira", "tickets", "planning", "workflow", "subagents", "cursor"]
+  "keywords": [
+    "linear",
+    "jira",
+    "tickets",
+    "planning",
+    "workflow",
+    "subagents",
+    "cursor"
+  ]
 }
